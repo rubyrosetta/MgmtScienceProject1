@@ -1,0 +1,9 @@
+option solver cplexamp;
+
+solve;
+
+display z;
+
+display {i in I, j in J} x[i,j];
+
+display {j in J, k in K} y[j,k];
